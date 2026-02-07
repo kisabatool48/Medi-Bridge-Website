@@ -14,7 +14,7 @@ app.use(express.json());
 app.use("/uploads", express.static(path.join(__dirname, "uploads"))); // Serve uploads if needed
 
 // MongoDB Connection
-const mongoUri = "mongodb+srv://kisabatool659_db_user:SNIHoxb19l8cVBjg@medi-bridge.oq8vk2z.mongodb.net/?appName=medi-bridge";
+const mongoUri = "";
 
 console.log("Attempting to connect to MongoDB...");
 mongoose.connect(mongoUri)
